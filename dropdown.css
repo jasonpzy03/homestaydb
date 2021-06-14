@@ -1,0 +1,142 @@
+.border2 {
+	margin-top: 70px;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.user {
+	cursor: pointer;
+	border-left: 1px solid #d9d9d9;
+	padding-left: 30px;
+	margin-top: 20px;
+	float: right;
+}
+
+#pic {
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+}
+
+#dropdown {
+
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 15px;
+	float: left;
+}
+
+.user:hover #pic {
+	margin: -2px;
+	border: 2px solid #186FFE;
+}
+
+.user:hover #dropdown {
+	display: none;
+}
+
+.user:hover #bluedropdown {
+	display: inline;
+}
+
+#bluedropdown {
+	display: none;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 15px;
+	float: left;
+}
+
+#dropdownbox {
+	user-select: none;
+	display: none;
+	padding: 20px;
+	z-index: 3;
+	position: fixed;
+	top: 75px;
+	right: 5px;
+	min-width: 400px;
+	min-height: 100px;
+	overflow: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
+	background-color: white;
+}
+
+#dropdownbox img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+}
+
+.userinfo {
+	margin-left: 15px;
+	margin-top: 8px;
+	float: left;
+}
+
+.btn2 {
+	outline: none;
+	background: none;
+	cursor: pointer;
+	text-decoration: none;
+	color: #186FFE;
+	border: 1px solid #186FFE;
+	border-radius: 50px;
+	padding: 8px 25px;
+}
+
+.btn2:hover {
+	transition: 0.5s ease;
+	color: white;
+	background-color: #186FFE;
+}
+
+.logoutbtn {
+	outline: none;
+	
+	float: right;
+	margin-top: 10px;
+	background: none;
+	cursor: pointer;
+	text-decoration: none;
+	border-radius: 50px;
+	padding: 8px 25px;
+}
+
+.logoutbtn:hover {
+	transition: 0.5s ease;
+}
+
+.functionbtn {
+	width: 200px;
+	font-size: 13px;
+	float: right;
+	padding: 10px 0px;
+	border-radius: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.functionbtn:hover {
+	transition: 0.5s ease;
+}
+
+.user {
+	user-select: none;
+}
+
+.user:hover p {
+	color: #186FFE;
+}
+
+.user p {
+	color: black;
+	margin-left: 10px;
+	margin-top: 8px;
+	float: left;
+}

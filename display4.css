@@ -1,0 +1,94 @@
+body {
+	background-color: #FFFFFF;
+}
+
+.errorline {
+	display: none;
+	content: ' ';
+	position: absolute;
+	width: 100%;
+	top: 22%;
+	transform: translateY(-50%);
+	left: 0px;
+	height: 2px;
+	background: #F2574E;
+	animation: line;
+	animation-duration: 0.5s;
+}
+
+.logo img {
+	float:left;
+	width: 100px;
+	margin-top: 25px;
+}
+
+.content {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 22%;
+	text-align: center;
+}
+
+.title {
+	clear: both;
+	text-align: center;
+}
+
+.title h1 {
+	font-size: 50px;
+	padding-bottom: 10px;
+}
+
+.title2 {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.register-form {
+	padding-top: 30px;
+}
+
+.displaybtn {
+	margin: 100px auto 0 auto;
+	background: none;
+	border-radius: 50px;
+	cursor: pointer;
+	padding: 12px 60px;
+	font-size: 15px;
+	outline: none;
+}
+
+.displaybtn:hover {
+	transition: 0.5s ease;
+}
+
+#selectBox {
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #186FFE;
+	font-size: 15px;
+	padding: 10px 0;
+	width: 100%;
+	cursor: pointer;
+}
+
+#selectBox-selected.select-arrow-active:after {
+	top:7px;
+}
+
+@media only screen and (max-width: 900px) {
+.content {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 40%;
+	text-align: center;
+}
+
+
+}
+
+

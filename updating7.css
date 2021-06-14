@@ -1,0 +1,323 @@
+body {
+	background-color: #FFFFFF;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.box p {
+	user-select: text;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+	border-radius: 50px;
+  background: #b8d2fc; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7aa5eb; 
+}
+
+.logo img {
+	float:left;
+	width: 100px;
+	margin-top: 25px;
+}
+
+
+
+.nohomestay img {
+	
+	width: 200px;
+}
+
+.nohomestay h1 {
+	margin-top: 50px;
+	color: grey;
+}
+
+
+.wrapper2 {
+	overflow: hidden;
+	clear: both;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.content {
+	margin: 40px 0;
+	width: 100%;
+	height: 500px;
+}
+
+.box {
+	z-index: 1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 300px;
+	height: 100%;
+}
+
+.update {
+	height: 100%;
+	border: 1px solid #d9d9d9;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+	background-color: white;
+	width: 65%;
+	float: right;
+}
+
+.update h2 {
+	width: 80%;
+	margin-top: 25px;
+	margin-left: 40px;
+	padding-bottom: 15px;
+}
+
+.border {
+	margin: 0 auto;
+	width: 90%;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.total {
+	float: right;
+	margin-top: 100px;
+	margin-right: 45px;
+}
+
+.smlbanner {
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+}
+
+.smlbanner img {
+	height: 100%;
+}
+
+.price {
+	overflow: hidden;
+	background-color: white;
+	padding: 5px 10px;
+	position: absolute;
+}
+
+#pricetopay {
+	padding: 10px 0;
+	text-align: center;
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	margin: 15px 0;
+}
+
+.title {
+	text-align: center;
+	width: 70%;
+	height: 10%;
+	margin: 60px auto 10px auto;
+	overflow: hidden;
+}
+
+.address {
+	text-align: center;
+	width: 70%;
+	height: 10%;
+	overflow: hidden;
+	margin: 0px auto 10px auto;
+}
+
+.description {
+	text-align: center;
+	width: 70%;
+	height: 5%;
+	margin: 0px auto 30px auto;
+	overflow: hidden;
+}
+
+.updatebtn {
+	margin-top: -15px;
+	margin-right: 20px;
+	float: right;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+	border-radius: 50px;
+	padding: 10px 35px;
+}
+
+.updatebtn:hover {
+	transition: 0.5s ease;
+}
+
+.removehomestay {
+	font-weight: bold;
+	background: none;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	top: 80%;
+	left: 42%;
+	text-decoration: none;
+	color: #ff5c69;
+
+}
+
+.removehomestay:hover {
+	text-decoration: underline;
+	color: #ff3343;
+}
+
+.title {
+	clear: both;
+	text-align: center;
+}
+
+.title h1 {
+	font-size: 50px;
+	padding-bottom: 10px;
+}
+
+.nohomestay img {
+	
+	width: 200px;
+}
+
+.nohomestay h1 {
+	margin-top: 50px;
+	color: grey;
+}
+
+.title2 {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.txtb {
+	position: relative;
+	margin: 30px 40px;
+}
+
+.txtb input {
+	position: relative;
+	z-index: 2;
+	margin-left: 8px;
+	font-size: 16px;
+	border: none;
+	width: 98%;
+	outline: none;
+	height: 40px;
+	background: none;
+}
+
+.txtb span::before {
+	content: attr(data-placeholder);
+	font-size: 16px;
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	transform: translateY(-50%);
+	transition: 0.2s;
+	z-index: 1;
+}
+
+.txtb span::after {
+	content: ' ';
+	position: absolute;
+	width: 0%;
+	top: 100%;
+	transform: translateY(-50%);
+	left: 0px;
+	height: 2px;
+	
+}
+
+.focus + span::before {
+	top: -5px;
+	font-size: 15px;
+}
+
+.focus + span::after {
+	transition: 0.5s;
+	width: 100%;
+}
+
+@media only screen and (max-width: 1245px) {
+	.box {
+		display: none;
+	}
+
+	.update {
+	height: 100%;
+	border: 1px solid #d9d9d9;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+	background-color: white;
+	width: 99%;
+	float: none;
+}
+
+.removehomestay {
+	background: none;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	top: 80%;
+	left: 20%;
+	text-decoration: none;
+	color: #ff5c69;
+
+}
+
+}
+
+@media only screen and (max-width: 611px) {
+
+.removehomestay {
+	background: none;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	top: 83%;
+	left: 20%;
+	text-decoration: none;
+	color: #ff5c69;
+
+}
+.btn {
+	margin-top: -22px;
+	margin-right: 20px;
+	float: right;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+	border-radius: 50px;
+	padding: 10px 35px;
+}
+
+}
+
+
+

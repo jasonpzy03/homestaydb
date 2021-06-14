@@ -1,0 +1,261 @@
+
+
+@media only screen and (min-width: 850px) {
+
+	#bar.active {
+		display: none;
+	}
+	#xbar {
+		display: none;
+	}
+
+	#sidebar {
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 1520px) {
+	.wrapper3 {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#aboutncontact {
+	overflow: hidden;
+	margin-top: 35px;
+	padding-top: 65px;
+	width: 100%;
+}
+
+.about {
+	padding: 50px 40px;
+	width: 100%;
+	height: 200px;
+	color: white;
+	background-color: #3b3e42;
+	display: block;
+	float: none;
+}
+
+.about h1, .contact h1 {
+	margin-bottom: 20px;
+}
+
+.about p {
+	width: 83%;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.contact h4 {
+	margin-bottom: 5px;
+}
+
+.contact ul {
+	margin-bottom: 15px;
+}
+
+.contact {
+	color: white;
+	height: 200px;
+	padding: 50px 40px;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/banner3.jpg") -20px;
+	display: block;
+	float: none;
+}
+}
+
+@media only screen and (max-width: 1300px) {
+	.description {
+	margin: 25px 25px 25px 25px;
+	float: left;
+	width: 32%;
+}
+}
+
+
+@media only screen and (max-width: 1185px) {
+		#imgb1 {
+	border-top-left-radius: 20px;
+}
+
+#imgb2 {
+	border-top-right-radius: 0px;
+}
+
+#imgb3 {
+	border-bottom-left-radius: 20px;
+}
+
+#imgb4 {
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#imgb5 {
+	border-top-right-radius: 20px;
+}
+
+#imgb6 {
+border-bottom-right-radius: 20px;
+}
+}
+
+@media only screen and (max-width: 1050px) {
+.b2 {
+	top: 30%;
+	left: 4%;
+	position: absolute;
+	text-decoration: none;
+	border-radius: 50px;
+	padding: 10px 35px;
+}
+	.description {
+	margin: 25px 0 25px 25px;
+	float: left;
+	width: 90%;
+}
+
+.description p {
+	margin-top: 20px;
+	margin-bottom: 70px;
+}
+
+.description a {
+	width: 100%;
+}
+
+
+.promotebox {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 80px;
+	height: 450px;
+	overflow: hidden;
+}
+.promoteboximg {
+	width: 100%;
+	height: auto;
+	float: none;
+}
+
+.promoteboximg img {
+	width: 100%;
+	height: auto;
+}
+}
+
+
+
+
+@media only screen and (max-width: 850px) {
+.b2 {
+	top: 35%;
+	left: 4%;
+	position: absolute;
+	text-decoration: none;
+	border-radius: 50px;
+	padding: 10px 35px;
+}
+	.main-nav {
+		display: none;
+	}
+	#bar {
+		display: inline;
+	}
+	#loginbtn {
+		display: none;
+	}
+
+	#signupbtn {
+		display: none;
+	}
+	.title {
+		margin-top: 200px; 
+	}
+
+	.title h1 {
+		font-size: 3em;
+	}
+
+	.title p {
+		font-size: 1.2em;
+	}
+	#gallery p {
+	padding-top: 20px;
+	padding-bottom: 80px;
+	margin: 0 auto;
+	width: auto;
+}
+.description {
+	margin: 25px 25px 25px 25px;
+	float: left;
+	width: 85%;
+}
+
+footer img {
+	clear: both;
+	margin-top: 0px;
+	margin: 0 auto;
+	display: block;
+	float: none;
+}
+}
+
+@media only screen and (max-width: 790px) {
+			#imgb1 {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#imgb2 {
+	border-top-right-radius: 0px;
+}
+
+#imgb3 {
+	border-bottom-left-radius: 0px;
+}
+
+#imgb4 {
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#imgb5 {
+	border-top-right-radius: 0px;
+}
+
+#imgb6 {
+border-bottom-right-radius: 0px;
+}
+}
+
+@media only screen and (max-width: 590px) {
+	.b2 {
+	top: 40%;
+	left: 4%;
+	position: absolute;
+	text-decoration: none;
+	border-radius: 50px;
+	padding: 10px 35px;
+}
+}
+
+@media only screen and (max-width: 515px) {
+	.promoteboximg {
+	width: 100%;
+	height: 100%;
+	float: none;
+}
+
+.promoteboximg img {
+	width: 100%;
+	height: 53%;
+}
+}
+}
+
+
